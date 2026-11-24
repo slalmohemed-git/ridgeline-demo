@@ -42,7 +42,6 @@ SalesforceInteractions.init({
           catalogObject: {
             type: 'Product',
             id: () => product().sku,
-            attributes: { name: () => product().name, category: () => product().category }
           }
         },
         listeners: [
